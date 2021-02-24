@@ -1,0 +1,26 @@
+<import src="/components/base/ImageView.vue.wxml" /><template name="0e5a4830">
+  <view class="_div data-v-ca25abec home-card">
+    <view class="_div data-v-ca25abec home-card-inner">
+      <view class="_div data-v-ca25abec user-info">
+        <view class="_div data-v-ca25abec avatar-wrapper"><template src="https://www.youbaobao.xyz/mpvue-res/logo.jpg" round data="{{...$root[$kk+'0'], $root}}" is="32895041"></template></view>
+        <view class="_div data-v-ca25abec nickname">{{'米老鼠'}}</view>
+        <view class="_div data-v-ca25abec shelf-text">书架共有{{3}}本好书</view>
+        <view class="_div data-v-ca25abec round-item"></view>
+        <view class="_div data-v-ca25abec shelf-text">特别精选</view>
+      </view>
+      <view class="_div data-v-ca25abec book-info">
+        <view class="_div data-v-ca25abec book-wrapper">
+          <view class="_div data-v-ca25abec book-img-wrapper"><template src="https://www.youbaobao.xyz/book/res/img//EarthSciences/978-981-10-3713-9_CoverFigure.jpg" data="{{...$root[$kk+'1'], $root}}" is="32895041"></template></view>
+          <view class="_div data-v-ca25abec book-img-wrapper"><template src="https://www.youbaobao.xyz/book/res/img//EarthSciences/978-981-10-3713-9_CoverFigure.jpg" data="{{...$root[$kk+'2'], $root}}" is="32895041"></template></view>
+          <view class="_div data-v-ca25abec book-img-wrapper"><template src="https://www.youbaobao.xyz/book/res/img//EarthSciences/978-981-10-3713-9_CoverFigure.jpg" data="{{...$root[$kk+'3'], $root}}" is="32895041"></template></view>
+        </view>
+        <view class="_div data-v-ca25abec shelf-wrapper">
+          <view class="_div data-v-ca25abec shelf">书架</view>
+          <van-icon class="_van-icon data-v-ca25abec arrow" name="arrow" size="11px" color="#828489" style="margin-left: 4.5px"></van-icon>
+        </view>
+      </view>
+      <view class="_div data-v-ca25abec feedback-wrapper" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"><label class="_span data-v-ca25abec">反馈</label></view>
+    </view>
+    <van-dialog id="van-dialog" class="_van-dialog data-v-ca25abec"></van-dialog>
+  </view>
+</template>
